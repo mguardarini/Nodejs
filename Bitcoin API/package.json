@@ -5,9 +5,11 @@
   "main": "server.js",
   "dependencies": {
     "async-request": "^1.2.0",
+    "mocha": "^3.5.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "yargs": "^8.0.2"
   },
   "devDependencies": {},
   "scripts": {
