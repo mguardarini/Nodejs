@@ -7,10 +7,11 @@ function getQuote() {
 
     // var url = 'https://api.coindesk.com/v1/bpi/currentprice/CNY.json';
     var url = 'https://api.coindesk.com/v1/bpi/currentprice.json'
+        //this variable i use to test the second 'if' (getStatusCode)    
         // var url = "https://foo"
 
     return new Promise(function(resolve, reject) {
-
+        //request for api 
         request(url,
 
             function(error, response, body) {
@@ -46,19 +47,19 @@ async function main() {
 
     switch (argv.BPI) {
 
-        case argv.BPI == 'USD':
+        case argv.BPI = 'USD':
             {
-                console.log("\nThe Bitcoin price in United States Dollar: " + data.bpi.USD.rate);
+                console.log("\nThe Bitcoin price in United States Dollar: " + data.bpi.USD.rate + "\n");
                 break;
             }
-        case argv.BPI == 'EUR':
+        case argv.BPI = 'EUR':
             {
-                console.log("\nThe Bitcoin price in Euro: " + data.bpi.EUR.rate);
+                console.log("\nThe Bitcoin price in Euro: " + data.bpi.EUR.rate + "\n");
                 break;
             }
-        case argv.BPI == 'GBP':
+        case argv.BPI = 'GBP':
             {
-                console.log("\nThe Bitcoin price in British Pound Sterling: " + data.bpi.GBP.rate);
+                console.log("\nThe Bitcoin price in British Pound Sterling: " + data.bpi.GBP.rate + "\n");
                 break;
             }
         default:
@@ -66,12 +67,9 @@ async function main() {
                 console.log("Sorry, I don't identify this option, please utilize this options USD, EUR or GBP follow the example: node server.js --BPI=USD\n");
                 break;
             }
-
-
     }
-
 }
 
 main();
-
+//I export this module because i test with mocha framework.
 exports.module = getQuote;
