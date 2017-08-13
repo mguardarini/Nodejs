@@ -1,0 +1,32 @@
+{
+  "name": "bitcoin_api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mguardarini/Nodejs.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "request"
+  ],
+  "author": "Mauro Guardarini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mguardarini/Nodejs/issues"
+  },
+  "homepage": "https://github.com/mguardarini/Nodejs#readme"
+}
