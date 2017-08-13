@@ -1,6 +1,7 @@
 Hello.
 
 This is a simple script for test request to CoinDesk Bitcoin Price Index API.
+https://www.coindesk.com/api/
 
 If want test, please, install the packages and execute the script:
 
