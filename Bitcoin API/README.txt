@@ -1,9 +1,9 @@
 Hello.
 
-This is a simple script for test request to CoinDesk Bitcoin Price Index API.
+This is a simple script to test requests for the API.
 https://www.coindesk.com/api/
 
-If want test, please, install the packages and execute the script:
+If you want to test, please install the packages and run the example below:
 
 $ node server.js --BPI=GBP
 $ node server.js --BPI=USD
