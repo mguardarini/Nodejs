@@ -1,0 +1,31 @@
+{
+    "name": "crud-koajs",
+    "version": "0.0.1",
+    "description": "This is a simple server who used koajs",
+    "main": "server.js",
+    "scripts": {
+        "test": "node server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mguardarini/Nodejs.git"
+    },
+    "keywords": [
+        "koajs"
+    ],
+    "author": "Mauro Guardarini",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mguardarini/Nodejs/issues"
+    },
+    "homepage": "https://github.com/mguardarini/Nodejs#readme",
+    "dependencies": {
+        "7": "0.0.1",
+        "koa": "^2.3.0",
+        "koa-body": "^2.3.0",
+        "koa-route": "^3.2.0",
+        "koa-router": "^7.2.1",
+        "mongoose": "^4.11.6"
+    }
+}
