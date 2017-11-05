@@ -9,10 +9,15 @@
         "request": "^2.81.0",
         "yargs": "^8.0.2"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
+    },
     "scripts": {
-        "test": "node server.js",
-        "start": "node server.js"
+        "test": "node app.js",
+        "gbp": "babel-node app.js GBP",
+        "usd": "babel-node app.js USD",
+        "eur": "babel-node app.js EUR"
     },
     "repository": {
         "type": "git",
