@@ -5,7 +5,7 @@ import getQuote from "./coindesk.js";
         let quote = await getQuote();
         let data = JSON.parse(quote);
 
-        let coin = {
+        const coin = {
 
             disclaimer:data.disclaimer,
             eur:data.bpi.EUR.rate,
