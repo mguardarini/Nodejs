@@ -1,4 +1,4 @@
-# GraphQL Example
+![](https://qph.ec.quoracdn.net/main-qimg-c3ed01cd2989f03dea73b3e7465db641)
 
 ### Link to [GraphQL](http://graphql.org/learn/) documentation
 
