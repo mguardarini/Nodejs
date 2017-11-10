@@ -12,7 +12,7 @@ Using a node.js server? Just use express-graphql! It can automatically present G
 npm install --save express-graphql
 ```
 
-This example implement GraphQL and Mongoose. 
+This example implement GraphQL, Mongoose and JWT. 
 
 ### Features in Development:
 
