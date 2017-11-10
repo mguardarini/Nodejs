@@ -1,3 +1,3 @@
-# GraphQL Example
+# [GraphQL] (http://graphql.org/learn/) Example
 
 in development...
